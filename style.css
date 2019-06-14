@@ -4,13 +4,39 @@
   box-sizing: border-box;
 }
 
-body { padding-top: 70px;}
+body {
+  padding-top: 70px;
+}
+
+.h1nero {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.h1bianco {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.hrnero {
+  border: 0;
+  height: 3px;
+  background-color: rgb(44, 62, 80);
+}
+
+.hrbianco {
+  border: 0;
+  height: 3px;
+  background-color: white;
+}
 
 
 /* HEADER PRIMO PEZZO */
 #headernav {
-    color: white;
-  }
+  color: white;
+}
 
 nav ul li, nav ul li a {
   text-transform: uppercase;
@@ -19,19 +45,17 @@ nav ul li, nav ul li a {
   color: white;
 }
 
-nav h1 {
+nav h3 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2em;
 }
 
-.colore-nav{
+.colore-nav {
   background-color: rgb(55, 72, 88);
 }
 
-
 /*HEADER SECONDO PEZZO */
-#headermain {
+.colore {
   background-color: rgb(26, 188, 156);
   color: white;
   text-align: center;
@@ -45,17 +69,98 @@ nav h1 {
 
 #headermain h1 {
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 5em;
   font-weight: bold;
   padding: 20px 0;
 }
 
-#headermain hr {
-  border: 0;
-  height: 3px;
-  background-color: white;
-}
-
 .custom-star {
   font-size: 40px;
+}
+
+/* MAIN */
+/* PRIMA SEZIONE MAIN */
+#primasezione .container-fluid {
+  text-align: center;
+  padding: 50px 0 20px 0;
+  color: rgb(44, 62, 80);
+}
+
+#primasezione .container {
+  text-align: center;
+}
+
+#primasezione img {
+  max-height: 250px;
+  margin-bottom: 20px;
+}
+
+#paddingimg {
+  padding: 50px 0;
+}
+
+/* SECONDA SEZIONE MAIN */
+#secondasezione .container-fluid {
+  color: white;
+  padding: 50px 0 20px 0;
+}
+
+#secondasezione .container {
+  text-align: center;
+}
+
+#secondasezione p {
+  font-size: 20px;
+  text-align: left;
+}
+
+#secondasezione button {
+  margin: 30px 0;
+  padding: 15px 30px;
+  background-color: rgb(26,188,156);
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* TERZA SEZIONE MAIN */
+#terzasezione .container-fluid {
+  text-align: center;
+  padding: 50px 0 20px 0;
+  color: rgb(44, 62, 80);
+}
+
+#terzasezione .container {
+  text-align: center;
+  color: rgb(44, 62, 80);
+}
+
+.form {
+  padding: 15px 30px;
+  border: 0;
+  width: 100%;
+  font-size:24px;
+}
+
+.form:focus {
+  outline: none;
+}
+
+#terzasezione hr {
+  color: grey;
+}
+
+form button {
+  background-color: rgb(26,188,156);
+  margin: 30px 0;
+  padding: 15px 30px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+form button:hover {
+   filter: brightness(70%);
 }
